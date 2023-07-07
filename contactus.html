@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>CONTACT-US-page</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico:regular" rel="stylesheet" />
+    <style>
+        *{
+            font-family: pacifico;
+        }
+        .mycard{
+           border: 1px solid indianred;
+           width: 40%;
+           padding:20px;
+           box-sizing: border-box;
+           border-radius: 5px;
+           /* x-offset y-offset blur size color*/
+           /* x-offset y-offset blur color*/
+           box-shadow: 3px -4px 5px 2px rgb(111, 110, 110);
+           background:whitesmoke ;
+        }
+        body{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            background: url('https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-18637.jpg?w=2000');
+            background-size: cover;
+        }
+        .myinput , .mybtn{
+            width:100%;
+            box-sizing: border-box;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+        }
+        .mybtn{
+            margin-top: 20px;
+            border-radius: 3px;
+            background-color: pink;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <div class="mycard">
+       
+      <h2>SEND US MESSAGE</h2>
+      <form>
+      <label>NAME</label>
+      <input class="myinput" type="TEXT" placeholder="enter your name here"><br><br>
+      
+      <label>email</label>
+      <input class="myinput" type="email" placeholder="enter your emailhere"><br><br>
+      
+      <label>message</label>
+      <input class="myinput" type="textarea" placeholder="type here">
+      
+      <button class="mybtn">SEND MESSAGE</button>
+    </form>
+
+    </div>
+    
+</body>
+</html>
